@@ -50,7 +50,7 @@ const WhatGPT3 = () => {
         <div className='gpt3__whatgpt3-container'>
           <Feature title="Before the discovery of programming" text="Graduated with a bachelor degree in earth science, I decided to travel (New Zealand, Australia, United-States, ...) and worked as a seasonal worker, in farms, coffee shop, and ski stations...."/>
           <Feature title="After the discovery of programming" text="After that I started programming because I always liked math and logics, and I have to say that my computer science cursus on Python and R were the best parts of my studies in Geology. So I began the web developer training on OpenClassroooms, and I loved it."/>
-          <Feature title="Now" text="I am doing alot of self taught project to get better in the art of programming. I am searching for a job now. "/>
+          <Feature title="Now" text="I am doing alot of self taught project to get better in the art of programming. I am searching for a job now.  "/>
         </div>
       </div> : null}
       {deutsh ? <div>

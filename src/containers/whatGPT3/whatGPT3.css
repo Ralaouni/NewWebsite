@@ -44,66 +44,65 @@
     display: flex;
 }
 .gpt3__whatgpt3-Languages button{
-    font-family: var(--font-family);
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
-    cursor: pointer;
-    background-color: transparent;
-    color: white;
+    font-family: var(--font-family);
     margin-left: 10px;
     margin-right: 10px;
-    padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 8px;
-    border-color: #fff;
+    padding: 5px;
 }
+
 .gpt3__whatgpt3-Languages button:hover{
     color: rgb(38, 223, 183);
     border-radius: 16px;
 }
 
 .gpt3__whatgpt3-heading {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
     margin: 4rem 0 2rem;
 }
 
 .gpt3__whatgpt3-heading h1 {
-    font-size: 34px;
-    line-height: 45px;
-    font-weight: 800;
     font-family: var(--font-family);
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
     max-width: 510px;
 }
 
 .gpt3__whatgpt3-heading p {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
     color: var(--color-subtext);
     cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
 }
 
 .gpt3__whatgpt3-container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-
+    flex-wrap: wrap;
     margin-top: 2rem;
 }
 
 .gpt3__whatgpt3-container 
 .gpt3__features-container__feature {
+    display: unset;
+    flex-direction: column;
     flex: 1;
     margin: 1rem;
     min-width: 210px;
-    display: unset;
-    flex-direction: column;
 }
 
 .gpt3__whatgpt3-container 
@@ -113,8 +112,8 @@
 
 @media screen and (max-width: 850px) {
     .gpt3__whatgpt3-heading {
-        flex-direction: column;
         align-items: flex-start;
+        flex-direction: column;
         margin-bottom: 0rem;
     }
 

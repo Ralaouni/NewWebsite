@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='gpt3__footer section__padding' id='footer'>
       <div className='gpt3__footer-heading'>
-        <h1 className='gradient__text'>Vous n'êtes plus qu'à un clique du bonheur</h1>
+        <h1 className='gradient__text'>Vous n'êtes plus qu'à un clic du bonheur</h1>
       </div>
 
       <div className='gpt3__footer-btn' onClick={(e) => {window.location.href = 'mailto:gaetankas@hotmail.com'}}>

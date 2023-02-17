@@ -1,10 +1,9 @@
 .gpt3__footer {
+    align-items: center;
+    background: var(--color-footer);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    background: var(--color-footer);
 }
 
 .gpt3__footer-heading {
@@ -13,57 +12,60 @@
 
     margin-bottom: 3rem;
 }
+
 .gpt3__footer-heading h1 {
     font-family: var(--font-family);
-    font-weight: 800;
     font-size: 62px;
+    font-weight: 800;
+    letter-spacing: -0.04em;
     line-height: 75px;
     text-align: center;
-    letter-spacing: -0.04em;
 }
 
 .gpt3__footer-btn{
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #ffff;
+    cursor: pointer;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    padding: 1rem;
-    border: 1px solid #ffff;
-    border-radius: 8px;
-    text-align: center;
-
     margin-bottom: 2rem;
-    cursor: pointer;
+    padding: 1rem;
+    text-align: center;
 }
+
 .gpt3__footer-btn:hover{
     border-radius: 16px;   
 }
+
 .gpt3__footer-btn p {
+    color: #FFFFFF;
     font-family: var(--font-family);
     font-size: 18px;
     line-height: 21px;
     word-spacing: 2px;
-    color: #FFFFFF;
 }
 
 #linkedin_button{
-    cursor: pointer;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
+
 .linkedin{
     background-color: #2b82b1;
-    color: #fff;
-    font-family: var(--font-family);
-    width: 50px;
-    height: 25px;
-    line-height: 25px;
     border-radius: 5px;
     border: 0;
-    outline: none;
+    color: #fff;
     cursor: pointer;
+    font-family: var(--font-family);
+    height: 25px;
+    line-height: 25px;
+    outline: none;
     padding: 5px;
+    width: 50px;
 }
+
 .linkedin:hover {
     background-color: #3f8ab3;
 }
@@ -75,6 +77,7 @@
         line-height: 50px;
     }
 }
+
 @media screen and (max-width: 550px) {
     .gpt3__footer-heading h1{
         font-size: 34px;

@@ -4,17 +4,17 @@
 }
 
 .gpt3__blog-heading {
-    width: 100%;
-    text-align: left;
     margin-bottom: 5rem;
+    text-align: left;
+    width: 100%;
 }
 
 .gpt3__blog-heading h1 {
     font-family: var(--font-family);
-    font-weight: 800;
     font-size: 62px;
-    line-height: 75px;
+    font-weight: 800;
     letter-spacing: -0.04em;
+    line-height: 75px;
 }
 
 .gpt3__blog-container {
@@ -27,10 +27,10 @@
     margin-right: 2rem;
 }
 .gpt3__blog-container_groupB {
-    flex: 1;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    flex: 1;
     grid-gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
 }
 
 @media screen and (max-width: 990px) {
