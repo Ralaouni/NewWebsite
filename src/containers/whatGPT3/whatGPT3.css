@@ -24,6 +24,10 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+#wgpt3{
+    border-radius: 15px;
+}
+
 .gpt3__whatgpt3-feature {
     display: flex;
 }
@@ -44,6 +48,7 @@
     display: flex;
 }
 .gpt3__whatgpt3-Languages button{
+    transition-duration: 0.6s;
     background-color: transparent;
     border-color: #fff;
     border-radius: 8px;
@@ -52,10 +57,10 @@
     display: flex;
     flex-direction: column;
     font-family: var(--font-family);
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 80px;
     padding: 5px;
 }
 
@@ -109,6 +114,7 @@
 .gpt3__features-container_feature-text {
     margin-top: 0.5rem;
 }
+
 
 @media screen and (max-width: 850px) {
     .gpt3__whatgpt3-heading {

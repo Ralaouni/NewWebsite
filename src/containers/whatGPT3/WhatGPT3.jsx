@@ -38,9 +38,9 @@ const WhatGPT3 = () => {
           <h1 className='gradient__text'>Mais qui est-il ?</h1>
         </div>
         <div className='gpt3__whatgpt3-container'>
-          <Feature title="Avant que je découvre la programmation" text="Diplômé d'une licence en sciences de la terre, j'ai décidé par la suite de voyager (Nouvelle-Zélande, Australie, États-Unis, ... ) et travailler en tant que saisonnier, dans des fermes, des cafés et des stations de ski, toujours à la recherche de ce qui pourrait m'animer. "/>
-          <Feature title="Ensuite il découvre le web développement" text="Je me suis tourné vers la programmation car j’ai toujours eu à cœur les mathématiques, la logique et que mes cours d'informatique sur python et R étaient là meilleur partie de mes études de géologie. J'ai donc entrepris la formation de développeur web chez Openclassrooms que j’ai adorée."/>
-          <Feature title="Maintenant" text="Je fais beaucoup de projets par moi-même pour me perfectionner dans l'art du développement web, et je suis actuellement à la recherche d'un CDI dans une entreprise ou une start up dans lequel je pourrai m'investir à fond. "/>
+          <Feature title="Avant ma découverte de la programmation" text="Diplômé d'une licence en sciences de la terre, j'ai décidé par la suite de voyager (Nouvelle-Zélande, Australie, États-Unis, ... ) et travailler en tant que saisonnier, dans des fermes, des cafés et des stations de ski, toujours à la recherche de ce qui pourrait m'animer. "/>
+          <Feature title="Ensuite je découvre le web développement" text="Je me suis tourné vers la programmation car j’ai toujours eu à cœur les mathématiques, la logique et que mes cours d'informatique sur python et R étaient là meilleur partie de mes études de géologie. J'ai donc entrepris la formation de développeur web chez Openclassrooms que j’ai adorée."/>
+          <Feature title="Maintenant" text="Je fais beaucoup de projets par moi-même pour me perfectionner dans l'art du développement web, et je suis actuellement à la recherche d'un CDI dans une entreprise ou une start up dans laquelle je pourrai évoluer et m'investir à fond. "/>
         </div>
       </div> : null}
       {english ? <div>
@@ -48,8 +48,8 @@ const WhatGPT3 = () => {
           <h1 className='gradient__text'>But who is Gaetan ?</h1>
         </div>
         <div className='gpt3__whatgpt3-container'>
-          <Feature title="Before the discovery of programming" text="Graduated with a bachelor degree in earth science, I decided to travel (New Zealand, Australia, United-States, ...) and worked as a seasonal worker, in farms, coffee shop, and ski stations...."/>
-          <Feature title="After the discovery of programming" text="After that I started programming because I always liked math and logics, and I have to say that my computer science cursus on Python and R were the best parts of my studies in Geology. So I began the web developer training on OpenClassroooms, and I loved it."/>
+          <Feature title="Before I discover programming" text="Graduated with a bachelor degree in earth science, I decided to travel (New Zealand, Australia, United-States, ...) and worked as a seasonal worker, in farms, coffee shop, and ski stations...."/>
+          <Feature title="After I discover programming" text="After that I started programming because I always liked math and logics, and I have to say that my computer science cursus on Python and R were the best parts of my studies in Geology. So I began the web developer training on OpenClassroooms, and I loved it."/>
           <Feature title="Now" text="I am doing alot of self taught project to get better in the art of programming. I am searching for a job now.  "/>
         </div>
       </div> : null}

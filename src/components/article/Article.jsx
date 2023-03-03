@@ -8,7 +8,7 @@ const Article = ({ imgUrl, language,languageback, title, code, page, linkcode, l
         <img src={imgUrl} alt='blogimage'/>
       </div>
       <div className='gpt3__blog-container_article-content'>
-        <div>
+        <div className='gpt3__blog-container_article-content_div'>
           <h3>{title}</h3>
           <p>{language}</p>
           <p>{languageback}</p>
