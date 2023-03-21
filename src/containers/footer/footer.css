@@ -37,7 +37,6 @@
 
 .gpt3__footer-btn:hover{
     border-radius: 16px;
-    color: rgb(38, 223, 183); 
 }
 
 .gpt3__footer-btn p {
@@ -46,6 +45,11 @@
     font-size: 18px;
     line-height: 21px;
     word-spacing: 2px;
+    transition: 0.6s;
+}
+
+.gpt3__footer-btn p:hover{
+    color: rgb(38, 223, 183); 
 }
 
 #linkedin_button{
